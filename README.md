@@ -5,20 +5,19 @@ Basic Flask application to add employees.
 2. view them
 3. Search for them which includes all the table fields
 
-<pre>
+  <pre>
   You can clone the repo or download it via link and run it in your local machine.
-  <br>
   Before running it on your local machine, delete the site.db for fresh data, and then open CLI.
   </pre>
   
-  Type in..
-  ./python
+Type in..
+1)./python
+
+2)from app import db
+3)db.create_all()
+4)exit()
   
-  >>from app import db
-  >>db.create_all()
-  >>exit()
-  
-  ./python app.py
+5)./python app.py
 
 
 
