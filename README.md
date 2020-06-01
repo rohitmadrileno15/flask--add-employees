@@ -11,20 +11,16 @@ Basic Flask application to add employees.
   Before running it on your local machine, delete the site.db for fresh data, and then open CLI.
   </pre>
   
-   <code>
   Type in..
-  <br>
   ./python
-  <br> 
+  
   >>from app import db
-  <br>
   >>db.create_all()
-  <br>
   >>exit()
-  <br>
+  
   ./python app.py
-  <br>
-  </code>
+
+
 
 <p align="center">
   <h4>Main view and table view</h4> 
