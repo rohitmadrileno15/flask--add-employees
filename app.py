@@ -3,7 +3,7 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField , PasswordField,SubmitField
-from wtforms.validators import DataRequired,Length, Email , EqualTo, ValidationError
+from wtforms.validators import DataRequired, ValidationError
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '450933c08c5ab75e79619102eddf47dee813a9d6'
@@ -18,8 +18,6 @@ class Employee(db.Model):
 
     address = db.Column(db.String(160), nullable = False)
     phone = db.Column(db.String(60), nullable = False)
-
-
 
     def __repr__(self):
         return f"User('{self.name}','{self.designation}')"
