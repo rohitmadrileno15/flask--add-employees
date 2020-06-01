@@ -6,7 +6,7 @@ Basic Flask application to add employees.
 3. Search for them
 
 <p align="center">
-  <h4></h4> 
-  <img src="your_relative_path_here" width="350">
+  <h4>Main view and table view</h4> 
+  <img src="./screenshots/Screenshot_6.png" width="350">
   
 </p>
